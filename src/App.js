@@ -7,12 +7,14 @@ import props1 from'./history/6.props'
 import control1 from'./history/7.control'
 import control2 from'./history/8.control'
 import MessageBox from'./component/MessageBox'
+import life1 from'./life/life1'
+import redux2 from'./redux/2.redux'
 
 import './App.css';
 
 class App extends Component {
   render() {
-    return MessageBox;
+    return redux2
   }
 }
 
