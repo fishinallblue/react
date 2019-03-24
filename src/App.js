@@ -1,27 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import jsx2 from'./history/2.jsx'
+import component1 from'./history/3.component'
+import component2 from'./history/4.class'
+import component3 from'./history/5.setState'
+import props1 from'./history/6.props'
+import control1 from'./history/7.control'
+import control2 from'./history/8.control'
+
 import './App.css';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+    return control2;
   }
 }
 
